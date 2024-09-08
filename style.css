@@ -1,0 +1,237 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto',sans-serif;
+}
+body{
+    height: 100vh;
+    background: #ececee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Bigbox{
+    width: 900px;
+    background: #fff;
+    box-shadow:0 2px 20px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.property{
+    border: 1px solid #7a7676;
+}
+.property .nuv_item{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    border-bottom: 1px solid #7a7676;
+    padding: 0 20px;
+}
+.property.nuv_item li select{
+    outline: none;
+    border-style: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #7a7676;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+.property.nuv_item li select{
+    color: #111;
+}
+.bx-transfer{
+    font-size: 24px;
+    color: rgb(13, 10, 5);
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+.bx-transfer:hover{
+    color: #111;
+}
+.write{
+    display: flex;
+}
+.property_from, .property_trans{
+    width: 100%;
+    position: relative;
+}
+.write textarea{
+    width: 100%;
+    height: 250px;
+    border-style: none;
+    outline: none;
+    resize: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #606060;
+    position: relative;
+}
+.write textarea:nth-child(1){
+    border-right: 1px solid #c7c7c7;
+}
+.write.icons{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20 px;
+
+}
+.icons.bx{
+    width: 35px;
+    height: 35px;
+    background: #cd7070;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    color: #111;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all.3s ease-out;
+
+}
+.icoons.bx:hover{
+    background: #606060;
+    color: rgb(66, 43, 11);
+}
+.code_length{
+    font-size: 18px;
+    color: #606060;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    height: 100vh;
+    background: #00303F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #111;
+    border-width: 10cap;
+}
+.Bigbox {
+    width: 900px;
+    background: #CAE4DB;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    overflow: hidden;
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    background: #DCAE1D;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 1em;
+    color: #333;
+    background: #7A9D96;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    
+}
+.property {
+    border: 1px solid #7a7676;
+}
+.property .nuv_item {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    border-bottom: 1px solid #7a7676;
+    padding: 0 20px;
+}
+.property .nuv_item li select {
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #7a7676;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+.property .nuv_item li select:hover {
+    color: #111;
+}
+.bx-transfer {
+    font-size: 24px;
+    color: rgb(13, 10, 5);
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+.bx-transfer:hover {
+    color: #111;
+}
+.write {
+    display: flex;
+}
+.property_from, .property_trans {
+    width: 100%;
+    position: relative;
+}
+.write textarea {
+    width: 100%;
+    height: 250px;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #606060;
+}
+.write textarea:nth-child(1) {
+    border-right: 1px solid #c7c7c7;
+}
+.write .icons {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.icons .bx {
+    width: 35px;
+    height: 35px;
+    background: #6a6262;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    color: #111;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+.icons .bx:hover {
+    background: #606060;
+    color: rgb(93, 89, 83);
+}
+.code_length {
+    font-size: 18px;
+    color: #606060;
+}
